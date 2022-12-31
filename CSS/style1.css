@@ -1,0 +1,105 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+ul {
+
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  background-color: #BDBDBD;
+  padding: 20px;
+  text-align: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+ width: 100%;
+ height: auto;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+}
+
+div.gallery1 {
+  margin: 28px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery1:hover {
+  border: 1px solid #777;
+}
+
+div.gallery1 img {
+ width: 100%;
+ height: auto;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+}
+
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+
+  
+}
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+.mlogin {
+   margin: 1px auto 0;
+  }
+
+.container {
+  padding: 5px 16px 25px 10px;
+  font-weight: 400;
+  width: 768px;
+  overflow: hidden;
+  height:370px ;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+  box-shadow: 0 1px 3px rgba(0,0,0,.13);
+  }
+
